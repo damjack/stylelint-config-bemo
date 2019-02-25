@@ -1,20 +1,13 @@
-# stylelint-config-sass-guidelines
+# Bemo Stylelint Config
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/bjankord/stylelint-config-sass-guidelines.svg)](https://greenkeeper.io/)
 [![NPM version](http://img.shields.io/npm/v/stylelint-config-sass-guidelines.svg)](https://www.npmjs.org/package/stylelint-config-sass-guidelines)
-[![Build Status](https://travis-ci.org/bjankord/stylelint-config-sass-guidelines.svg?branch=master)](https://travis-ci.org/bjankord/stylelint-config-sass-guidelines)
-[![Dependency Status](https://david-dm.org/bjankord/stylelint-config-sass-guidelines.svg)](https://david-dm.org/bjankord/stylelint-config-sass-guidelines)
-[![devDependency Status](https://david-dm.org/bjankord/stylelint-config-sass-guidelines/dev-status.svg)](https://david-dm.org/bjankord/stylelint-config-sass-guidelines/?type=dev)
-[![Downloads per month](https://img.shields.io/npm/dm/stylelint-config-sass-guidelines.svg)](http://npmcharts.com/compare/stylelint-config-sass-guidelines)
 
-> Sass Guidelines shareable config for stylelint.
+> A sharable stylelint config object that enforces Bemo's CSS rules
 
-A stylelint config based on [sass-guidelin.es](https://sass-guidelin.es/)
+## Install
 
-## Installation
-
-```console
-$ npm install --save stylelint-config-sass-guidelines
+```
+$ npm install --save stylelint-config-bemo
 ```
 
 ## Usage
@@ -23,30 +16,9 @@ Set your stylelint config to:
 
 ```json
 {
-  "extends": "stylelint-config-sass-guidelines"
+  "extends": "stylelint-config-bemo"
 }
 ```
-
-### Extending the config
-
-Simply add a `"rules"` key to your config and add your overrides there.
-
-For example, to change the `indentation` to tabs and turn off the `number-leading-zero` rule:
-
-
-```json
-{
-  "extends": "stylelint-config-sass-guidelines",
-  "rules": {
-    "indentation": "tab",
-    "number-leading-zero": null
-  }
-}
-```
-
-## [Lint Rule Comparison](https://github.com/bjankord/stylelint-config-sass-guidelines/wiki/Lint-Rule-Comparison)
-
-## [Lint Report Comparison](https://github.com/bjankord/stylelint-config-sass-guidelines/wiki/Lint-Report-Comparison)
 
 ## Documentation
 
