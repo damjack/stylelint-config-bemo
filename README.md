@@ -1,6 +1,6 @@
 # Bemo Stylelint Config
 
-[![NPM version](http://img.shields.io/npm/v/stylelint-config-sass-guidelines.svg)](https://www.npmjs.org/package/stylelint-config-sass-guidelines)
+[![NPM version](http://img.shields.io/npm/v/stylelint-config-bemo.svg)](https://www.npmjs.org/package/stylelint-config-bemo)
 
 > A sharable stylelint config object that enforces Bemo's CSS rules
 

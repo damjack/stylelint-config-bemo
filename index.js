@@ -5,7 +5,7 @@ module.exports = {
     "at-rule-no-unknown": null,
     "at-rule-no-vendor-prefix": true,
     "block-no-empty": true,
-    "block-opening-brace-space-before": "always",
+    "block-opening-brace-space-before": "never",
     "color-hex-case": "lower",
     "color-hex-length": "short",
     "color-named": "never",
@@ -15,7 +15,7 @@ module.exports = {
     "declaration-block-semicolon-newline-after": "always",
     "declaration-block-semicolon-space-before": "never",
     "declaration-block-single-line-max-declarations": 1,
-    "declaration-block-trailing-semicolon": "always",
+    "declaration-block-trailing-semicolon": "never",
     "declaration-colon-space-after": "always-single-line",
     "declaration-colon-space-before": "never",
     "declaration-property-value-blacklist": {
@@ -96,7 +96,7 @@ module.exports = {
           "Selector should be written in lowercase with hyphens (selector-class-pattern)"
       }
     ],
-    "selector-list-comma-newline-after": "always",
+    "selector-list-comma-newline-after": "always-multi-line",
     "selector-max-compound-selectors": 3,
     "selector-max-id": 0,
     "selector-no-qualifying-type": true,

@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-bemo",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Sharable stylelint config for Bemo framework",
   "keywords": [
     "stylelint",
@@ -16,9 +16,9 @@
     "type": "git",
     "url": "git+https://github.com/damjack/stylelint-config-bemo.git"
   },
-  "homepage": "https://github.com/bjankord/stylelint-config-bemo#readme",
+  "homepage": "https://github.com/damjack/stylelint-config-bemo#readme",
   "bugs": {
-    "url": "https://github.com/bjankord/stylelint-config-bemo/issues"
+    "url": "https://github.com/damjack/stylelint-config-bemo/issues"
   },
   "main": "index.js",
   "files": [
